@@ -9,7 +9,7 @@
       <h5>Your order has been placed with email address:
     <%= @order.email %>
     </h5>
-    <h5>Your order total was
+    <h5>Your order total is
     <%= humanized_money_with_symbol @order.total_cents / 100.0 %>
     </h5>
   </div>

@@ -1,9 +1,17 @@
-<%= image_tag product.product.image.tiny, class: 'cart-img' %>
+<tr>
+  <td>
+    <%= image_tag product.product.image.tiny, class: 'cart-img' %>
+  </td>
+  <td>
+    <%=  product.product.name %>
+    <br>
+    <%= product.product.description  %>
+  </td>
 
-<%=  product.product.name %>
-
-<%= product.product.description  %>
-
-<%= product.product.quantity %>
-
-<%= humanized_money_with_symbol product.total_price_cents / 100 %>
+  <td>
+    <%= product.quantity %>
+  </td>
+  <td>
+    <%= humanized_money_with_symbol product.total_price_cents / 100 %>
+  </td>
+</tr> 
