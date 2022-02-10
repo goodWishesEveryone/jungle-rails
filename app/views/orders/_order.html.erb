@@ -1,0 +1,9 @@
+<%= image_tag product.product.image.tiny, class: 'cart-img' %>
+
+<%=  product.product.name %>
+
+<%= product.product.description  %>
+
+<%= product.product.quantity %>
+
+<%= humanized_money_with_symbol product.total_price_cents / 100 %>
