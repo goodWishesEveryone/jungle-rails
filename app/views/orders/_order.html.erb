@@ -1,0 +1,17 @@
+<tr>
+  <td>
+    <%= image_tag product.product.image.tiny, class: 'cart-img' %>
+  </td>
+  <td>
+    <%=  product.product.name %>
+    <br>
+    <%= product.product.description  %>
+  </td>
+
+  <td>
+    <%= product.quantity %>
+  </td>
+  <td>
+    <%= humanized_money_with_symbol product.total_price_cents / 100 %>
+  </td>
+</tr> 
