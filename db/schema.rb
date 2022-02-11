@@ -87,15 +87,9 @@ ActiveRecord::Schema.define(version: 20160625062916) do
     t.string   "last_name",       limit: 50
   end
 
-  create_table "widgets", force: :cascade do |t|
-    t.integer "user_id"
-    t.string  "name",    limit: 255, null: false
-  end
-
   add_foreign_key "customers", "users", name: "customers_user_id_fkey", on_delete: :cascade
   add_foreign_key "line_items", "orders"
   add_foreign_key "line_items", "products"
   add_foreign_key "order_foods", "foods", name: "order_foods_food_id_fkey", on_delete: :cascade
   add_foreign_key "products", "categories"
-  add_foreign_key "widgets", "users", name: "widgets_user_id_fkey"
 end
