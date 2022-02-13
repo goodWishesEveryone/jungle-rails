@@ -1,25 +1,23 @@
 # **Jungle**
  
 A mini e-commerce application built with Ruby and the Rails 4.2 framework. 
-
-Jungle was built with users in mind from the main catalog to each products detail page.
-Some special features of Jungle is authentication processes:
-  1. Users do not need to sign in to view the products catalog and respective detail pages, however, a user must sign in to submit a review or delete a review 
-  2. Admin users have an extra step of authentication to access the create product and create category pages
-
+Jungle is built with users in mind from the main catalog to each products detail page. Some special features of Jungle is the authentication process for admin users.It has an extra step of authentication to access the create product and create category pages.
 
 
 ## Final Product
  
 #### Home page showing product listing
- 
+
+*All Product Listing Before User Login*
 !["Screenshot of Product Page"](public/docs/all_products.png)
-!["Screenshot of Product-Apparel category having a sold product"](public/docs/sold_out_badge.png)
 
 #### User Page
 
 *All Product Listing After User Login*
 !["Screenshot of product page"](public/docs/all_products_user_login.png)
+
+*Showing a sold-out badge for product with 0 quantity*
+!["Screenshot of Product-Apparel category having a sold product"](public/docs/sold_out_badge.png)
 
 *Empty Cart Message*
 !["Screenshot of empty cart page"](public/docs/empty_shopping_cart.png)
@@ -35,15 +33,17 @@ Some special features of Jungle is authentication processes:
 *Admin Only Login*
 !["Screenshot of admin category dashboard"](public/docs/admin_login.png)
  
-*Admin Only Category Dashboard*
+*Admin Only Products and Category Count Dashboard*
 !["Screenshot of admin category dashboard"](public/docs/admin_dashboard.png)
  
-*Admin Only All Products*
+*Admin Only All Products: can add and delete product*
 !["Screenshot of admin all products"](public/docs/admin_all_products.png)
+!["Screenshot of admin new product"](public/docs/admin_new_product.png)
  
-*Admin Only Categories*
+*Admin Only Categories: can add and delete category*
+!["Screenshot of admin all categories"](public/docs/admin_all_categories.png)
 !["Screenshot of admin new category"](public/docs/admin_new_category.png)
- 
+
  
 ## Additional Steps for Apple M1 Machines
 
