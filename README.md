@@ -1,7 +1,7 @@
 # **Jungle**
  
 A mini e-commerce application built with Ruby and the Rails 4.2 framework. 
-Jungle is built with users in mind from the main catalog to each products detail page. Some special features of Jungle is the authentication process for admin users.It has an extra step of authentication to access the create product and create category pages.
+Jungle is built with users in mind from the main catalog to each products detail page. Some special features of Jungle is the authentication process for admin users.  It has an extra step of authentication to access the create product and create category pages.
 
 
 ## Final Product
@@ -36,16 +36,16 @@ Jungle is built with users in mind from the main catalog to each products detail
 *Admin Only Products and Category Count Dashboard*
 !["Screenshot of admin category dashboard"](public/docs/admin_dashboard.png)
  
-*Admin Only All Products: can add and delete product*
+*Admin Only - All Products: can add, delete product*
 !["Screenshot of admin all products"](public/docs/admin_all_products.png)
 !["Screenshot of admin new product"](public/docs/admin_new_product.png)
  
-*Admin Only Categories: can add and delete category*
+*Admin Only - All Categories: can add, delete category*
 !["Screenshot of admin all categories"](public/docs/admin_all_categories.png)
 !["Screenshot of admin new category"](public/docs/admin_new_category.png)
 
  
-## Additional Steps for Apple M1 Machines
+## Additional Setup Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
 1. Install ImageMagick `brew install imagemagick imagemagick@6 --build-from-source`
